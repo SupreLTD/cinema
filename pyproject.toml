@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cinema"
+version = "0.1.0"
+description = ""
+authors = ["ivan <supreltd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+pydantic-settings = "^2.0.2"
+pydantic = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
